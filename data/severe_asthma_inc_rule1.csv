@@ -1,0 +1,101 @@
+type,id,bnf_code,nm
+vmp,35938011000001101,0301011U0AAABAB,Salmeterol 50microgram inhalation powder blisters
+vmp,35937811000001108,0301011U0AAAAAA,Salmeterol 50microgram inhalation powder blisters with device
+vmp,35907611000001101,0302000C0AAALAL,Beclometasone 100microgram inhalation powder blisters
+vmp,35907711000001105,0302000C0AAAGAG,Beclometasone 100microgram inhalation powder blisters with device
+vmp,35908311000001107,0302000C0AAAHAH,Beclometasone 200microgram inhalation powder blisters with device
+vmp,35908211000001104,0302000C0AAAKAK,Beclometasone 200microgram inhalation powder blisters
+vmp,35909011000001104,0302000C0AAAJAJ,Beclometasone 400microgram inhalation powder blisters with device
+vmp,35908911000001108,0302000C0AAAQAQ,Beclometasone 400microgram inhalation powder blisters
+vmp,12911011000001100,0302000C0AABXBX,Beclometasone 100micrograms/dose / Formoterol 6micrograms/dose inhaler CFC free
+vmp,14959511000001107,0302000K0AAAZAZ,Budesonide 100micrograms/dose inhaler CFC free
+vmp,15374611000001106,0302000K0AABABA,Budesonide 200micrograms/dose inhaler CFC free
+vmp,21113711000001102,0302000N0AABJBJ,Fluticasone 125micrograms/dose / Formoterol 5micrograms/dose inhaler CFC free
+vmp,21113811000001105,0302000N0AABKBK,Fluticasone 250micrograms/dose / Formoterol 10micrograms/dose inhaler CFC free
+vmp,21113911000001100,0302000N0AABLBL,Fluticasone 50micrograms/dose / Formoterol 5micrograms/dose inhaler CFC free
+vmp,23661311000001105,0302000V0AAAAAA,Fluticasone furoate 184micrograms/dose / Vilanterol 22micrograms/dose dry powder inhaler
+vmp,23661411000001103,0302000V0AAABAB,Fluticasone furoate 92micrograms/dose / Vilanterol 22micrograms/dose dry powder inhaler
+vmp,26148711000001101,0302000C0AABYBY,Beclometasone 100micrograms/dose / Formoterol 6micrograms/dose dry powder inhaler
+vmp,31087511000001105,0302000C0AACACA,Beclometasone 200micrograms/dose / Formoterol 6micrograms/dose dry powder inhaler
+vmp,31087411000001106,0302000C0AABZBZ,Beclometasone 200micrograms/dose / Formoterol 6micrograms/dose inhaler CFC free
+vmp,34955111000001103,0302000V0BCAAA0,Generic Trelegy Ellipta 92micrograms/dose / 55micrograms/dose / 22micrograms/dose dry powder inhaler
+vmp,35647511000001107,0302000N0AABPBP,Fluticasone 125micrograms/dose / Formoterol 5micrograms/dose breath actuated inhaler CFC free
+vmp,35647611000001106,0302000N0AABQBQ,Fluticasone 50micrograms/dose / Formoterol 5micrograms/dose breath actuated inhaler CFC free
+vmp,320534000,0302000C0AAAEAE,Beclometasone 100microgram inhalation powder capsules
+vmp,320535004,0302000C0AAAFAF,Beclometasone 200microgram inhalation powder capsules
+vmp,320520000,0302000C0AAAIAI,Beclometasone 400microgram inhalation powder capsules
+vmp,3432911000001109,0302000K0AAARAR,Budesonide 200microgram inhalation powder capsules
+vmp,3433011000001101,0302000K0AAASAS,Budesonide 400microgram inhalation powder capsules
+vmp,35369511000001103,0302000C0AABLBL,Salbutamol 200microgram / Beclometasone 100microgram inhalation powder capsules
+vmp,320543009,0302000C0AAAPAP,Salbutamol 400microgram / Beclometasone 200microgram inhalation powder capsules
+vmp,320884002,0303020G0AAABAB,Montelukast 10mg tablets
+vmp,320889007,0303020Z0AAABAB,Zafirlukast 20mg tablets
+vmp,320258002,0301011B0AAAAAA,Bambuterol 10mg tablets
+vmp,320259005,0301011B0AAABAB,Bambuterol 20mg tablets
+vmp,410944008,0303020G0AAADAD,Montelukast 4mg granules sachets sugar free
+vmp,36059911000001104,0302000N0AAAAAA,Fluticasone propionate 50microgram inhalation powder blisters with device
+vmp,36059311000001100,0302000N0AAACAC,Fluticasone propionate 100microgram inhalation powder blisters with device
+vmp,36059211000001108,0302000N0AAADAD,Fluticasone propionate 100microgram inhalation powder blisters
+vmp,36059811000001109,0302000N0AAABAB,Fluticasone propionate 50microgram inhalation powder blisters
+vmp,36059511000001106,0302000N0AAAFAF,Fluticasone propionate 250microgram inhalation powder blisters
+vmp,36059411000001107,0302000N0AAAEAE,Fluticasone propionate 250microgram inhalation powder blisters with device
+vmp,36059711000001101,0302000N0AAAPAP,Fluticasone propionate 500microgram inhalation powder blisters with device
+vmp,36059611000001105,0302000N0AAAQAQ,Fluticasone propionate 500microgram inhalation powder blisters
+vmp,320244004,0301011U0AAACAC,Salmeterol 25micrograms/dose inhaler
+vmp,320618008,0302000N0AABHBH,Fluticasone 50micrograms/dose inhaler CFC free
+vmp,320614005,0302000N0AABABA,Fluticasone 125micrograms/dose inhaler CFC free
+vmp,320615006,0302000N0AABCBC,Fluticasone 250micrograms/dose inhaler CFC free
+vmp,35912511000001101,0302000K0AAADAD,Budesonide 200micrograms/dose inhaler
+vmp,35909411000001108,0302000C0AABIBI,Beclometasone 50micrograms/dose dry powder inhaler
+vmp,35908011000001109,0302000C0AABJBJ,Beclometasone 100micrograms/dose dry powder inhaler
+vmp,35912411000001100,0302000K0AAAGAG,Budesonide 200micrograms/dose dry powder inhaler
+vmp,35912111000001105,0302000K0AAAKAK,Budesonide 100micrograms/dose dry powder inhaler
+vmp,35908411000001100,0302000C0AABUBU,Beclometasone 200micrograms/dose dry powder inhaler
+vmp,35908711000001106,0302000C0AABKBK,Beclometasone 250micrograms/dose dry powder inhaler
+vmp,35909111000001103,0302000C0AABSBS,Beclometasone 400micrograms/dose dry powder inhaler
+vmp,35909511000001107,0302000C0AAAAAA,Beclometasone 50micrograms/dose inhaler
+vmp,35908111000001105,0302000C0AABFBF,Beclometasone 100micrograms/dose inhaler CFC free
+vmp,35909611000001106,0302000C0AABEBE,Beclometasone 50micrograms/dose inhaler CFC free
+vmp,35909311000001101,0302000C0AABGBG,Beclometasone 50micrograms/dose breath actuated inhaler CFC free
+vmp,35907911000001107,0302000C0AABHBH,Beclometasone 100micrograms/dose breath actuated inhaler CFC free
+vmp,320537007,0302000C0AAABAB,Beclometasone 100micrograms/dose inhaler
+vmp,35908511000001101,0302000C0AAARAR,Beclometasone 200micrograms/dose inhaler
+vmp,35908811000001103,0302000C0AAACAC,Beclometasone 250micrograms/dose inhaler
+vmp,35907811000001102,0302000C0AAATAT,Beclometasone 100micrograms/dose breath actuated inhaler
+vmp,35908611000001102,0302000C0AAAUAU,Beclometasone 250micrograms/dose breath actuated inhaler
+vmp,320602002,0302000N0AAARAR,Fluticasone propionate 50micrograms/dose dry powder inhaler
+vmp,320603007,0302000N0AAASAS,Fluticasone propionate 100micrograms/dose dry powder inhaler
+vmp,36565411000001101,0302000N0AAATAT,Fluticasone propionate 250micrograms/dose dry powder inhaler
+vmp,320605000,0302000N0AAAUAU,Fluticasone propionate 500micrograms/dose dry powder inhaler
+vmp,35912711000001106,0302000K0AAAHAH,Budesonide 400micrograms/dose dry powder inhaler
+vmp,35912811000001103,0302000K0AAAAAA,Budesonide 50micrograms/dose inhaler
+vmp,320263003,0301011E0AAABAB,Formoterol 6micrograms/dose dry powder inhaler
+vmp,320264009,0301011E0AAACAC,Formoterol 12micrograms/dose dry powder inhaler
+vmp,320250009,0301011U0AAAEAE,Salmeterol 50micrograms/dose dry powder inhaler
+vmp,35909211000001109,0302000C0AAASAS,Beclometasone 50micrograms/dose breath actuated inhaler
+vmp,36059111000001102,0302000N0AAAGAG,Fluticasone 25micrograms/dose inhaler
+vmp,4864911000001104,0302000K0AAATAT,Budesonide 200micrograms/dose inhaler with spacer
+vmp,8024611000001102,0302000K0AAAVAV,Budesonide 200micrograms/dose dry powder inhalation cartridge with device
+vmp,9117811000001107,0302000K0AAAWAW,Budesonide 200micrograms/dose dry powder inhalation cartridge
+vmp,9652711000001107,0301011E0AAADAD,Formoterol 12micrograms/dose inhaler CFC free
+vmp,10075611000001101,0301011U0AAAHAH,Salmeterol 25micrograms/dose inhaler CFC free
+vmp,10621011000001101,0302000C0AABVBV,Beclometasone 200micrograms/dose inhaler CFC free
+vmp,10621111000001100,0302000C0AABWBW,Beclometasone 250micrograms/dose inhaler CFC free
+vmp,320610001,0302000N0AAAVAV,Fluticasone 500micrograms/2ml nebuliser liquid unit dose vials
+vmp,320611002,0302000N0AAAWAW,Fluticasone 2mg/2ml nebuliser liquid unit dose vials
+vmp,3654511000001105,0302000K0AAAJAJ,Budesonide 500micrograms/2ml nebuliser liquid unit dose vials
+vmp,3654611000001109,0302000K0AAAIAI,Budesonide 1mg/2ml nebuliser liquid unit dose vials
+vmp,320885001,0303020G0AAAAAA,Montelukast 5mg chewable tablets sugar free
+vmp,134510006,0303020G0AAACAC,Montelukast 4mg chewable tablets sugar free
+vmp,12626211000001108,0301011E0AAAAAA,Formoterol 12microgram inhalation powder capsules with device
+vmp,320274007,0302000N0AABEBE,Fluticasone 50micrograms/dose / Salmeterol 25micrograms/dose inhaler CFC free
+vmp,320275008,0302000N0AABFBF,Fluticasone 125micrograms/dose / Salmeterol 25micrograms/dose inhaler CFC free
+vmp,320276009,0302000N0AABGBG,Fluticasone 250micrograms/dose / Salmeterol 25micrograms/dose inhaler CFC free
+vmp,320277000,0302000N0AAAXAX,Fluticasone propionate 100micrograms/dose / Salmeterol 50micrograms/dose dry powder inhaler
+vmp,320279002,0302000N0AAAYAY,Fluticasone propionate 250micrograms/dose / Salmeterol 50micrograms/dose dry powder inhaler
+vmp,320280004,0302000N0AAAZAZ,Fluticasone propionate 500micrograms/dose / Salmeterol 50micrograms/dose dry powder inhaler
+vmp,35936211000001105,0302000C0AAANAN,Salbutamol 100micrograms/dose / Beclometasone 50micrograms/dose inhaler
+vmp,35912011000001109,0302000K0AAALAL,Budesonide 100micrograms/dose / Formoterol 6micrograms/dose dry powder inhaler
+vmp,134498003,0302000K0AAAMAM,Budesonide 200micrograms/dose / Formoterol 6micrograms/dose dry powder inhaler
+vmp,4378111000001103,0302000K0AAAUAU,Budesonide 400micrograms/dose / Formoterol 12micrograms/dose dry powder inhaler
+vmp,32960711000001105,0302000K0AABBBB,Budesonide 200micrograms/dose / Formoterol 6micrograms/dose inhaler CFC free
