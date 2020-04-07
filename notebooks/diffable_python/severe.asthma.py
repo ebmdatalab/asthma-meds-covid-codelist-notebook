@@ -42,7 +42,15 @@ WITH bnf_codes AS (
    
 SELECT "vmp" AS type, id, bnf_code, nm
 FROM dmd.vmp
-WHERE bnf_code IN (SELECT * FROM bnf_codes)'''
+WHERE bnf_code IN (SELECT * FROM bnf_codes)
+
+UNION ALL
+
+SELECT "amp" AS type, id, bnf_code, descr
+FROM dmd.amp
+WHERE bnf_code IN (SELECT * FROM bnf_codes)
+
+ORDER BY type, bnf_code, id'''
 
 severe_asthma_inc_rule1 = bq.cached_read(sql, csv_path=os.path.join('..','data','severe_asthma_inc_rule1.csv'))
 pd.set_option('display.max_rows', None)
@@ -61,7 +69,15 @@ WITH bnf_codes AS (
    )
 SELECT "vmp" AS type, id, bnf_code, nm
 FROM dmd.vmp
-WHERE bnf_code IN (SELECT * FROM bnf_codes)'''
+WHERE bnf_code IN (SELECT * FROM bnf_codes)
+
+UNION ALL
+
+SELECT "amp" AS type, id, bnf_code, descr
+FROM dmd.amp
+WHERE bnf_code IN (SELECT * FROM bnf_codes)
+
+ORDER BY type, bnf_code, id'''
 
 severe_asthma_inc_rule2 = bq.cached_read(sql, csv_path=os.path.join('..','data','severe_asthma_inc_rule2.csv'))
 pd.set_option('display.max_rows', None)
@@ -73,6 +89,3 @@ severe_asthma_inc_rule2.head(10)
 # Presence of at least one from `severe_asthma_inc_rule1` in last three months <br/>
 # AND <br/>
 # X issues of at least one from `severe_asthma_inc_rule2` in the last three months
-
-
-
