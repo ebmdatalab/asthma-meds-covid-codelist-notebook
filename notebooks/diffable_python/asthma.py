@@ -52,9 +52,12 @@ sql = '''
 WITH bnf_codes AS (  
   SELECT DISTINCT bnf_code FROM measures.dmd_objs_with_form_route WHERE 
   (bnf_code LIKE '0302000C0%' OR #BNF Beclometasone dipropionate
-  bnf_code LIKE '0302000K0%' OR #BNF budesonide
-  bnf_code LIKE '0302000V0%' OR #BNF Fluticasone furoate 
-  bnf_code LIKE '0302000N0%') #BNF Fluticasone propionate 
+  bnf_code LIKE '0301011AB%'  OR #BNF BeclometDiprop/Formoterol/Glycopyrronium",
+  bnf_code LIKE '0302000K0%'  OR #BNF budesonide
+  bnf_code LIKE '0302000U0%'  OR #BNF Ciclesonide
+  bnf_code LIKE '0302000V0%'  OR #BNF Fluticasone furoate 
+  bnf_code LIKE '0302000N0%'  OR #BNF Fluticasone propionate 
+  bnf_code LIKE '0302000R0%')   #BNF Mometasone Furoate
   AND
   (form_route LIKE '%pressurizedinhalation.inhalation' OR form_route LIKE 'powderinhalation.inhalation%')
    )
@@ -74,6 +77,3 @@ ORDER BY type, bnf_code, id'''
 ics_asthma = bq.cached_read(sql, csv_path=os.path.join('..','data','ics_asthma.csv'))
 pd.set_option('display.max_rows', None)
 ics_asthma
-# -
-
-# TBC in issue on the rule
