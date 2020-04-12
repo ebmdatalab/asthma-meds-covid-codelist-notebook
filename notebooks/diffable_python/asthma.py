@@ -43,6 +43,7 @@ ORDER BY type, bnf_code, id'''
 
 sabutamol_asthma = bq.cached_read(sql, csv_path=os.path.join('..','data','sabutamol_asthma.csv'))
 pd.set_option('display.max_rows', None)
+pd.set_option('display.max_colwidth', None)
 sabutamol_asthma
 
 # +
@@ -76,4 +77,5 @@ ORDER BY type, bnf_code, id'''
 
 ics_asthma = bq.cached_read(sql, csv_path=os.path.join('..','data','ics_asthma.csv'))
 pd.set_option('display.max_rows', None)
+pd.set_option('display.max_colwidth', None)
 ics_asthma
