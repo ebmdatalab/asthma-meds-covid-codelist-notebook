@@ -25,9 +25,8 @@ import pandas as pd
 sql = '''
 WITH bnf_codes AS (  
   SELECT bnf_code FROM hscic.presentation WHERE  
-  bnf_code LIKE '030302%'  
- 
-   )
+  bnf_code LIKE '030302%'  #BNF section on LTRA
+    )
    
 SELECT "vmp" AS type, id, bnf_code, nm
 FROM dmd.vmp
@@ -41,7 +40,7 @@ WHERE bnf_code IN (SELECT * FROM bnf_codes)
 
 ORDER BY type, bnf_code, id'''
 
-sabutamol_asthma = bq.cached_read(sql, csv_path=os.path.join('..','data','sabutamol_asthma.csv'))
+ltra_codelist = bq.cached_read(sql, csv_path=os.path.join('..','data','ltra_codelist.csv'))
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_colwidth', None)
-sabutamol_asthma
+ltra_codelist
