@@ -1,0 +1,214 @@
+type,id,bnf_code,nm
+amp,4164511000001101,,Entonox cylinders 2000litres size F (BOC Ltd)
+amp,4489311000001105,,Entonox cylinders 2200litres size HX (BOC Ltd)
+amp,8091211000001106,,Entonox cylinders 3970litres size ZX (BOC Ltd)
+amp,4567111000001106,,Entonox cylinders 5000litres size G (BOC Ltd)
+amp,4163611000001100,,Entonox cylinders 500litres size D (BOC Ltd)
+amp,8090211000001100,,Entonox cylinders 794litres size ZD (BOC Ltd)
+amp,14652211000001100,1501020R0BCAAAH,Entonox cylinders size D (BOC Ltd)
+amp,20282811000001106,1501020R0BCAHA0,Entonox cylinders size EA (BOC Ltd)
+amp,20283011000001109,1501020R0BCAIA0,Entonox cylinders size ED (BOC Ltd)
+amp,20283211000001104,1501020R0BCAJA0,Entonox cylinders size EX (BOC Ltd)
+amp,14646311000001105,1501020R0BCABA0,Entonox cylinders size F (BOC Ltd)
+amp,14651711000001100,1501020R0BCACA0,Entonox cylinders size G (BOC Ltd)
+amp,14649011000001101,1501020R0BCAEA0,Entonox cylinders size HX (BOC Ltd)
+amp,14654611000001106,1501020R0BCAFA0,Entonox cylinders size ZD (BOC Ltd)
+amp,14650611000001104,1501020R0BCAGA0,Entonox cylinders size ZX (BOC Ltd)
+amp,10173511000001108,,Equanox cylinders 10600litres size J (Linde Gas UK Ltd)
+amp,10173911000001101,,Equanox cylinders 14500litres size J (Linde Gas UK Ltd)
+amp,10237711000001108,,Equanox cylinders 2000litres size F (Linde Gas UK Ltd)
+amp,10171311000001103,,Equanox cylinders 210litres size CC (Linde Gas UK Ltd)
+amp,10029711000001108,,Equanox cylinders 2120litres size AF4 (Linde Gas UK Ltd)
+amp,10172711000001106,,Equanox cylinders 2730litres size F4 (Linde Gas UK Ltd)
+amp,10173111000001104,,Equanox cylinders 2900litres size AF4 200 (Linde Gas UK Ltd)
+amp,10171711000001104,,Equanox cylinders 290litres size CC 200 (Linde Gas UK Ltd)
+amp,10029411000001102,,Equanox cylinders 420litres size AD (Linde Gas UK Ltd)
+amp,10028611000001108,,Equanox cylinders 5000litres size G (Linde Gas UK Ltd)
+amp,10028811000001107,,Equanox cylinders 500litres size D (Linde Gas UK Ltd)
+amp,10172011000001109,,Equanox cylinders 580litres size AD 200 (Linde Gas UK Ltd)
+amp,10172211000001104,,Equanox cylinders 580litres size CD 200 (Linde Gas UK Ltd)
+amp,14651111000001101,191500000BDBCA0,Equanox cylinders size AD (Linde Gas UK Ltd)
+amp,14653011000001101,,Equanox cylinders size AD 200 (Linde Gas UK Ltd)
+amp,14648611000001104,191500000BDBBA0,Equanox cylinders size AF4 (Linde Gas UK Ltd)
+amp,14649611000001108,,Equanox cylinders size AF4 200 (Linde Gas UK Ltd)
+amp,14648111000001107,,Equanox cylinders size CC (Linde Gas UK Ltd)
+amp,14650111000001107,,Equanox cylinders size CC 200 (Linde Gas UK Ltd)
+amp,14653411000001105,,Equanox cylinders size CD 200 (Linde Gas UK Ltd)
+amp,14652611000001103,191500000BDBEA0,Equanox cylinders size D (Linde Gas UK Ltd)
+amp,14647611000001103,191500000BDBKA0,Equanox cylinders size F (Linde Gas UK Ltd)
+amp,14649411000001105,,Equanox cylinders size F4 (Linde Gas UK Ltd)
+amp,14652011000001105,191500000BDBDA0,Equanox cylinders size G (Linde Gas UK Ltd)
+amp,14664811000001103,,Equanox cylinders size J (Linde Gas UK Ltd)
+amp,14638711000001109,191500000BDBFA0,Helium 79% / Oxygen 21% cylinders (Linde Gas UK Ltd)
+amp,10030611000001107,,Helium 79% / Oxygen 21% cylinders 1200litres (Linde Gas UK Ltd)
+amp,4692811000001107,,Helium 79% / Oxygen 21% cylinders 1200litres size F (BOC Ltd)
+amp,4693811000001104,,Helium 79% / Oxygen 21% cylinders 1780litres size HX (BOC Ltd)
+amp,10182811000001109,,Helium 79% / Oxygen 21% cylinders 2000litres size F4 (Linde Gas UK Ltd)
+amp,10030911000001101,,Helium 79% / Oxygen 21% cylinders 3000litres (Linde Gas UK Ltd)
+amp,10183211000001102,,Helium 79% / Oxygen 21% cylinders 5000litres size G4 (Linde Gas UK Ltd)
+amp,14638411000001103,191500000BDAVA0,Helium 79% / Oxygen 21% cylinders size F (BOC Ltd)
+amp,14640211000001104,,Helium 79% / Oxygen 21% cylinders size F4 (Linde Gas UK Ltd)
+amp,14641011000001100,,Helium 79% / Oxygen 21% cylinders size G4 (Linde Gas UK Ltd)
+amp,14639311000001104,191500000BDAYA0,Helium 79% / Oxygen 21% cylinders size HX (BOC Ltd)
+amp,10244311000001104,,Medical Oxygen cylinders 1360litres size F (Linde Gas UK Ltd)
+amp,10243511000001107,,Medical Oxygen cylinders 170litres size C (Linde Gas UK Ltd)
+amp,10244511000001105,,Medical Oxygen cylinders 2300litres size F4 (Linde Gas UK Ltd)
+amp,10243311000001101,,Medical Oxygen cylinders 300litres size CC (Linde Gas UK Ltd)
+amp,10243911000001100,,Medical Oxygen cylinders 340litres size D (Linde Gas UK Ltd)
+amp,10243711000001102,,Medical Oxygen cylinders 430litres size AD 200 (Linde Gas UK Ltd)
+amp,10244111000001101,,Medical Oxygen cylinders 680litres size E (Linde Gas UK Ltd)
+amp,14656111000001105,,Medical Oxygen cylinders size AD 200 (Linde Gas UK Ltd)
+amp,14650411000001102,,Medical Oxygen cylinders size C (Linde Gas UK Ltd)
+amp,14655311000001102,,Medical Oxygen cylinders size CC (Linde Gas UK Ltd)
+amp,14655911000001101,,Medical Oxygen cylinders size D (Linde Gas UK Ltd)
+amp,14658811000001102,,Medical Oxygen cylinders size E (Linde Gas UK Ltd)
+amp,14649211000001106,,Medical Oxygen cylinders size F (Linde Gas UK Ltd)
+amp,14651611000001109,,Medical Oxygen cylinders size F4 (Linde Gas UK Ltd)
+amp,14633811000001106,,Oxygen 95% / Carbon dioxide 5% cylinders (Linde Gas UK Ltd)
+amp,10184411000001100,,Oxygen 95% / Carbon dioxide 5% cylinders 10500litres size J4 (Linde Gas UK Ltd)
+amp,10029911000001105,,Oxygen 95% / Carbon dioxide 5% cylinders 1360litres (Linde Gas UK Ltd)
+amp,4168211000001105,,Oxygen 95% / Carbon dioxide 5% cylinders 1360litres size F (BOC Ltd)
+amp,10183611000001100,,Oxygen 95% / Carbon dioxide 5% cylinders 2300litres size F4 (Linde Gas UK Ltd)
+amp,10030111000001104,,Oxygen 95% / Carbon dioxide 5% cylinders 3400litres (Linde Gas UK Ltd)
+amp,4169211000001100,,Oxygen 95% / Carbon dioxide 5% cylinders 3400litres size G (BOC Ltd)
+amp,10184011000001109,,Oxygen 95% / Carbon dioxide 5% cylinders 5800litres size G4 (Linde Gas UK Ltd)
+amp,9864611000001109,,Oxygen 95% / Carbon dioxide 5% cylinders 6800litres size J (BOC Ltd)
+amp,10030411000001109,,Oxygen 95% / Carbon dioxide 5% cylinders 7200litres (Linde Gas UK Ltd)
+amp,14633411000001109,,Oxygen 95% / Carbon dioxide 5% cylinders size F (BOC Ltd)
+amp,14635111000001103,,Oxygen 95% / Carbon dioxide 5% cylinders size F4 (Linde Gas UK Ltd)
+amp,14634211000001108,,Oxygen 95% / Carbon dioxide 5% cylinders size G (BOC Ltd)
+amp,14634511000001106,,Oxygen 95% / Carbon dioxide 5% cylinders size G4 (Linde Gas UK Ltd)
+amp,14634811000001109,,Oxygen 95% / Carbon dioxide 5% cylinders size J (BOC Ltd)
+amp,14633111000001104,,Oxygen 95% / Carbon dioxide 5% cylinders size J4 (Linde Gas UK Ltd)
+amp,4086311000001109,,Oxygen composite cylinders 1360litres B10C with integral headset (Air Products Plc)
+amp,4086111000001107,,Oxygen composite cylinders 1360litres size DF with integral headset (BOC Ltd)
+amp,3106411000001109,,Oxygen composite cylinders 1360litres size F with integral headset (Medigas Ltd)
+amp,9562811000001101,,Oxygen composite cylinders 2122litres IF2 with integral headset (Medigas Ltd)
+amp,9546911000001104,,Oxygen composite cylinders 2122litres with integral headset (Air Products Plc)
+amp,14645611000001105,,Oxygen composite cylinders size B10C with integral headset (Air Products Plc)
+amp,14645211000001108,,Oxygen composite cylinders size DF with integral headset (BOC Ltd)
+amp,14645011000001103,,Oxygen composite cylinders size F with integral headset (Medigas Ltd)
+amp,14646411000001103,,Oxygen composite cylinders size IF2 with integral headset (Medigas Ltd)
+amp,14646111000001108,,Oxygen composite cylinders with integral headset (Air Products Plc)
+amp,14648811000001100,,Oxygen cylinders (Medigas Ltd)
+amp,10179511000001105,,Oxygen cylinders 10600litres size J (Linde Gas UK Ltd)
+amp,10179711000001100,,Oxygen cylinders 10600litres size J200 (Linde Gas UK Ltd)
+amp,10175511000001107,,Oxygen cylinders 1100litres size AE 200 (Linde Gas UK Ltd)
+amp,4086911000001105,,Oxygen cylinders 1360litres (Medigas Ltd)
+amp,4086711000001108,,Oxygen cylinders 1360litres B10S (Air Products Plc)
+amp,3100611000001105,,Oxygen cylinders 1360litres size AF (BOC Ltd)
+amp,4086511000001103,,Oxygen cylinders 1360litres size F (BOC Ltd)
+amp,10176711000001105,,Oxygen cylinders 1440litres size AF (Linde Gas UK Ltd)
+amp,4095211000001108,,Oxygen cylinders 170litres size C (BOC Ltd)
+amp,10175911000001100,,Oxygen cylinders 2000litres size F4 200 (Linde Gas UK Ltd)
+amp,10177111000001107,,Oxygen cylinders 2100litres size AF4 (Linde Gas UK Ltd)
+amp,10176311000001106,,Oxygen cylinders 2300litres size F4C with integral headset (Linde Gas UK Ltd)
+amp,4489011000001107,,Oxygen cylinders 2300litres size HX (BOC Ltd)
+amp,10177511000001103,,Oxygen cylinders 2600litres size AF4 250 with integral headset (Linde Gas UK Ltd)
+amp,4087611000001102,,Oxygen cylinders 300litres size PD (Air Products Plc)
+amp,3107311000001104,,Oxygen cylinders 300litres size PD (BOC Ltd)
+amp,4097911000001109,,Oxygen cylinders 3400litres size G (BOC Ltd)
+amp,4095811000001109,,Oxygen cylinders 340litres size D (BOC Ltd)
+amp,4097511000001102,,Oxygen cylinders 430litres size PA2 with integral headset (Air Products Plc)
+amp,4099111000001100,,Oxygen cylinders 430litres size PA2 with integral headset (Oxygen Therapy Company)
+amp,4095511000001106,,Oxygen cylinders 430litres size PD (Medigas Ltd)
+amp,4099711000001104,,Oxygen cylinders 460litres size CD with integral headset 0-15litres/minute flow rate (BOC Ltd)
+amp,4100011000001101,,Oxygen cylinders 460litres size DD with integral headset 2 and 4litres/minute flow rate (BOC Ltd)
+amp,10174311000001100,,Oxygen cylinders 490litres size AD with integral headset (Linde Gas UK Ltd)
+amp,10177911000001105,,Oxygen cylinders 5100litres size G4C 200 with integral headset (Linde Gas UK Ltd)
+amp,10178311000001105,,Oxygen cylinders 5700litres size G4 (Linde Gas UK Ltd)
+amp,10178711000001109,,Oxygen cylinders 5700litres size G4C with integral headset (Linde Gas UK Ltd)
+amp,10174711000001101,,Oxygen cylinders 600litres size CD 300 with integral headset (Linde Gas UK Ltd)
+amp,4096211000001102,,Oxygen cylinders 6800litres size J (BOC Ltd)
+amp,4097111000001106,,Oxygen cylinders 680litres size E (BOC Ltd)
+amp,10179111000001101,,Oxygen cylinders 7300litres size SJ (Linde Gas UK Ltd)
+amp,10175111000001103,,Oxygen cylinders 740litres size AE (Linde Gas UK Ltd)
+amp,14657111000001108,,Oxygen cylinders size AD with integral headset (Linde Gas UK Ltd)
+amp,14659411000001107,,Oxygen cylinders size AE (Linde Gas UK Ltd)
+amp,14647311000001108,,Oxygen cylinders size AE 200 (Linde Gas UK Ltd)
+amp,14647711000001107,,Oxygen cylinders size AF (BOC Ltd)
+amp,14649711000001104,,Oxygen cylinders size AF (Linde Gas UK Ltd)
+amp,14651011000001102,,Oxygen cylinders size AF4 (Linde Gas UK Ltd)
+amp,14653211000001106,,Oxygen cylinders size AF4 250 with integral headset (Linde Gas UK Ltd)
+amp,14648411000001102,,Oxygen cylinders size B10S (Air Products Plc)
+amp,14650011000001106,,Oxygen cylinders size C (BOC Ltd)
+amp,14658111000001109,,Oxygen cylinders size CD 300 with integral headset (Linde Gas UK Ltd)
+amp,14656711000001106,,Oxygen cylinders size CD with integral headset 0-15litres/minute flow rate (BOC Ltd)
+amp,14655711000001103,,Oxygen cylinders size D (BOC Ltd)
+amp,14656911000001108,,Oxygen cylinders size DD with integral headset 2 and 4litres/minute flow rate (BOC Ltd)
+amp,14658511000001100,,Oxygen cylinders size E (BOC Ltd)
+amp,14648011000001106,,Oxygen cylinders size F (BOC Ltd)
+amp,14650711000001108,,Oxygen cylinders size F4 200 (Linde Gas UK Ltd)
+amp,14652411000001101,,Oxygen cylinders size F4C with integral headset (Linde Gas UK Ltd)
+amp,14655511000001108,,Oxygen cylinders size G (BOC Ltd)
+amp,14657511000001104,,Oxygen cylinders size G4 (Linde Gas UK Ltd)
+amp,14657311000001105,,Oxygen cylinders size G4C 200 with integral headset (Linde Gas UK Ltd)
+amp,14657811000001101,,Oxygen cylinders size G4C with integral headset (Linde Gas UK Ltd)
+amp,14651411000001106,,Oxygen cylinders size HX (BOC Ltd)
+amp,14658311000001106,,Oxygen cylinders size J (BOC Ltd)
+amp,14646611000001100,,Oxygen cylinders size J (Linde Gas UK Ltd)
+amp,14647111000001106,,Oxygen cylinders size J200 (Linde Gas UK Ltd)
+amp,14656311000001107,,Oxygen cylinders size PA2 with integral headset (Air Products Plc)
+amp,14656511000001101,,Oxygen cylinders size PA2 with integral headset (Oxygen Therapy Company)
+amp,14655111000001104,,Oxygen cylinders size PD (Air Products Plc)
+amp,14654911000001100,,Oxygen cylinders size PD (BOC Ltd)
+amp,14659111000001102,,Oxygen cylinders size SJ (Linde Gas UK Ltd)
+vmp,14680311000001102,,Helium 79% / Oxygen 21%
+vmp,4700711000001106,,Helium 79% / Oxygen 21% cylinders 1200litres
+vmp,4700811000001103,,Helium 79% / Oxygen 21% cylinders 1780litres
+vmp,10182611000001105,,Helium 79% / Oxygen 21% cylinders 2000litres
+vmp,10051211000001103,,Helium 79% / Oxygen 21% cylinders 3000litres
+vmp,10183011000001107,,Helium 79% / Oxygen 21% cylinders 5000litres
+vmp,14680511000001108,1501020R0AAAHAH,Nitrous oxide 50% / Oxygen 50%
+vmp,10173311000001102,,Nitrous oxide 50% / Oxygen 50% cylinders 10600litres
+vmp,10173711000001103,,Nitrous oxide 50% / Oxygen 50% cylinders 14500litres
+vmp,4176711000001108,,Nitrous oxide 50% / Oxygen 50% cylinders 2000litres
+vmp,10171111000001100,,Nitrous oxide 50% / Oxygen 50% cylinders 210litres
+vmp,10051311000001106,,Nitrous oxide 50% / Oxygen 50% cylinders 2120litres
+vmp,4503911000001101,,Nitrous oxide 50% / Oxygen 50% cylinders 2200litres
+vmp,10172411000001100,,Nitrous oxide 50% / Oxygen 50% cylinders 2730litres
+vmp,10172911000001108,,Nitrous oxide 50% / Oxygen 50% cylinders 2900litres
+vmp,10171511000001109,,Nitrous oxide 50% / Oxygen 50% cylinders 290litres
+vmp,8100411000001106,,Nitrous oxide 50% / Oxygen 50% cylinders 3970litres
+vmp,10051411000001104,,Nitrous oxide 50% / Oxygen 50% cylinders 420litres
+vmp,4600611000001109,,Nitrous oxide 50% / Oxygen 50% cylinders 5000litres
+vmp,4176811000001100,,Nitrous oxide 50% / Oxygen 50% cylinders 500litres
+vmp,10172511000001101,,Nitrous oxide 50% / Oxygen 50% cylinders 580litres
+vmp,8100511000001105,,Nitrous oxide 50% / Oxygen 50% cylinders 794litres
+vmp,375287000,,Oxygen
+vmp,14632911000001108,,Oxygen 95% / Carbon dioxide 5%
+vmp,10184211000001104,,Oxygen 95% / Carbon dioxide 5% cylinders 10500litres
+vmp,4173011000001103,,Oxygen 95% / Carbon dioxide 5% cylinders 1360litres
+vmp,10183411000001103,,Oxygen 95% / Carbon dioxide 5% cylinders 2300litres
+vmp,4173111000001102,,Oxygen 95% / Carbon dioxide 5% cylinders 3400litres
+vmp,10183811000001101,,Oxygen 95% / Carbon dioxide 5% cylinders 5800litres
+vmp,9864411000001106,,Oxygen 95% / Carbon dioxide 5% cylinders 6800litres
+vmp,10051611000001101,,Oxygen 95% / Carbon dioxide 5% cylinders 7200litres
+vmp,3436211000001104,,Oxygen composite cylinders 1360litres with integral headset
+vmp,9553211000001104,,Oxygen composite cylinders 2122litres with integral headset
+vmp,10179311000001104,,Oxygen cylinders 10600litres
+vmp,10175311000001101,,Oxygen cylinders 1100litres
+vmp,3436311000001107,,Oxygen cylinders 1360litres
+vmp,10176511000001100,,Oxygen cylinders 1440litres
+vmp,4107611000001107,,Oxygen cylinders 170litres
+vmp,10175711000001102,,Oxygen cylinders 2000litres
+vmp,10176911000001107,,Oxygen cylinders 2100litres
+vmp,4504011000001103,,Oxygen cylinders 2300litres
+vmp,10176111000001109,,Oxygen cylinders 2300litres with integral headset
+vmp,10177311000001109,,Oxygen cylinders 2600litres with integral headset
+vmp,3436911000001108,,Oxygen cylinders 300litres
+vmp,4107811000001106,,Oxygen cylinders 3400litres
+vmp,4107711000001103,,Oxygen cylinders 340litres
+vmp,4107911000001101,,Oxygen cylinders 430litres
+vmp,4108011000001104,,Oxygen cylinders 430litres with integral headset
+vmp,4108111000001103,,Oxygen cylinders 460litres with integral headset 0-15litres/minute flow rate
+vmp,4108211000001109,,Oxygen cylinders 460litres with integral headset 2 and 4litres/minute flow rate
+vmp,10174211000001108,,Oxygen cylinders 490litres with integral headset
+vmp,10177711000001108,,Oxygen cylinders 5100litres with integral headset
+vmp,10178111000001108,,Oxygen cylinders 5700litres
+vmp,10178511000001104,,Oxygen cylinders 5700litres with integral headset
+vmp,10174511000001106,,Oxygen cylinders 600litres with integral headset
+vmp,4108411000001108,,Oxygen cylinders 6800litres
+vmp,4108311000001101,,Oxygen cylinders 680litres
+vmp,10178911000001106,,Oxygen cylinders 7300litres
+vmp,10174911000001104,,Oxygen cylinders 740litres
