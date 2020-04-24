@@ -27,14 +27,14 @@ from ebmdatalab import bq
 import os
 import pandas as pd
 
+# + [markdown]
+# ## Steroid <a id='pred'></a>
+#
+# NICE guidance advises 30 mg oral prednisolone once daily for 5 days — discuss adverse effects of prolonged therapy.
+# Consider the need for osteoporosis prophylaxis for people requiring frequent courses of oral corticosteroids (3–4 courses per year).
+
+
 # +
-## Steroid <a id='pred'></a>
-
-NICE guidance advises 30 mg oral prednisolone once daily for 5 days — discuss adverse effects of prolonged therapy.
-Consider the need for osteoporosis prophylaxis for people requiring frequent courses of oral corticosteroids (3–4 courses per year).
-
-
-# -
 
 
 

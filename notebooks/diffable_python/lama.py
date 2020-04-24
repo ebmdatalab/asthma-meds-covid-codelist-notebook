@@ -18,7 +18,8 @@
 #
 #
 # - [Single Ingredient LAMAs](#single)
-# - [Multi Ingredent Preparations including LAMA](#multi)
+# - [All Multi Ingredent Preparations including LAMA](#multi)
+# - [LAMA + LABA + ICS containing preparations](#triple)
 
 from ebmdatalab import bq
 import os
@@ -64,7 +65,7 @@ sql = '''WITH bnf_codes AS (
     (bnf_code LIKE '0301020U0%' OR        #BNF Aclidinium Brom/Formoterol
     bnf_code LIKE '0301040W0%'  OR        #BNF Umeclidinium bromide / Vilanterol
     bnf_code LIKE '0301040X0%'  OR        #BNF Tiotropium bromide  / Olodaterol
-    bnf_code LIKE '0302000V0%'  OR        #BNF Fluticasone + Umeclidinium bromide + Vilanterol
+    bnf_code LIKE '0302000V0%'  OR        #BNF Fluticasone Furoate ++ 
     bnf_code LIKE '0301011AB%'  OR        #BNF Beclometasone + Formoterol + Glycopyrronium bromide
     bnf_code LIKE '0301040Y0%')          #BNF Indacaterol 85micrograms/dose / Glycopyrronium bromide
     AND 
@@ -88,4 +89,40 @@ lama_multi_codelist = bq.cached_read(sql, csv_path=os.path.join('..','data','lam
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_colwidth', None)
 lama_multi_codelist
+
+# -
+
+# ## LAMA + LABA + ICS containing preparationss <a id='triple'></a>
+#
+# Recently inhalers with three ingredients have come on the market and are referred to as "triple therapy". The following is list of these preparations and have been cross checked with [NHS Rightbreathe.com](https://www.rightbreathe.com/) to ensure all BNF codes are included. 
+
+# +
+sql = '''WITH bnf_codes AS (
+ SELECT DISTINCT bnf_code FROM measures.dmd_objs_with_form_route WHERE 
+    (    bnf_code LIKE '0302000V0B%A0'  OR        #BNF Fluticasone + Umeclidinium bromide + Vilanterol
+    bnf_code LIKE '0301011AB%')        #BNF Beclometasone + Formoterol + Glycopyrronium bromide
+  #  AND 
+    #form_route NOT LIKE '%neb%'     #exclude to nebules through name search
+
+  )
+  
+SELECT "vmp" AS type, id, bnf_code, nm
+FROM dmd.vmp
+WHERE bnf_code IN (SELECT * FROM bnf_codes)
+
+UNION ALL
+
+SELECT "amp" AS type, id, bnf_code, descr
+FROM dmd.amp
+WHERE bnf_code IN (SELECT * FROM bnf_codes)
+
+ORDER BY type, nm, bnf_code, id'''
+
+resp_triple_codelist = bq.cached_read(sql, csv_path=os.path.join('..','data','resp_triple_codelist.csv'))
+pd.set_option('display.max_rows', None)
+pd.set_option('display.max_colwidth', None)
+resp_triple_codelist
+
+# -
+
 
