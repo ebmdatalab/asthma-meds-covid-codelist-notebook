@@ -36,7 +36,7 @@ sql = '''WITH bnf_codes AS (
     bnf_code LIKE '0301011Z0%'  OR          #BNF Olodaterol
     bnf_code LIKE '0301011U0%'  OR          #BNF Salmeterol
     bnf_code LIKE '0301011B0%'  )          #BNF Bambuterol Hydrochloride
-   AND (form_route LIKE '%pressurizedinhalation.inhalation' OR form_route LIKE 'powderinhalation.inhalation%')
+  # AND (form_route LIKE '%pressurizedinhalation.inhalation' OR form_route LIKE 'powderinhalation.inhalation%')
    
    )
 
@@ -56,6 +56,47 @@ laba_single_codelist = bq.cached_read(sql, csv_path=os.path.join('..','data','la
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_colwidth', None)
 laba_single_codelist
+# -
+
+# ## LABA + ICS <a id='ics'></a>
+
+# +
+sql = '''WITH vmp_codes AS (
+SELECT DISTINCT id FROM dmd.vmp WHERE 
+  nm LIKE '%/%/%'  ##I think all combination inhalers have / at least twice in their name
+  AND
+  bnf_code LIKE '0302%'
+  AND
+  (bnf_code NOT LIKE '0302000V0B%A0'  AND        #BNF triple therapy
+   bnf_code NOT LIKE '0301011AB%') #triple therapy
+     )
+
+SELECT "vmp" AS type, id, vmp.bnf_code, nm
+FROM dmd.vmp as vmp
+INNER JOIN
+measures.dmd_objs_with_form_route as dmd
+ON
+vmp.id = dmd.snomed_id
+WHERE id IN (SELECT * FROM vmp_codes)
+AND  form_route NOT LIKE '%neb%'
+
+UNION ALL
+
+SELECT "amp" AS type, id, amp.bnf_code, descr
+FROM dmd.amp
+INNER JOIN
+measures.dmd_objs_with_form_route as dmd
+ON
+amp.id = dmd.snomed_id
+WHERE vmp IN (SELECT * FROM vmp_codes)
+AND  form_route NOT LIKE '%neb%'
+
+ORDER BY type, nm, bnf_code, id'''
+
+laba_ics_codelist = bq.cached_read(sql, csv_path=os.path.join('..','data','laba_ics_codelist.csv'))
+pd.set_option('display.max_rows', None)
+pd.set_option('display.max_colwidth', None)
+laba_ics_codelist
 # -
 
 
