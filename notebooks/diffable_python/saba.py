@@ -40,12 +40,9 @@ SELECT "amp" AS type, id, bnf_code, descr
 FROM dmd.amp
 WHERE bnf_code IN (SELECT * FROM bnf_codes)
 
-ORDER BY type, bnf_code, id'''
+ORDER BY type, nm, bnf_code, id'''
 
 saba_codelist = bq.cached_read(sql, csv_path=os.path.join('..','data','saba_codelist.csv'))
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_colwidth', None)
 saba_codelist
-# -
-
-
