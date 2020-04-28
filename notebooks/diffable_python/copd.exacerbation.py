@@ -65,13 +65,8 @@ WITH bnf_codes AS (
     bnf_code NOT LIKE "0501050A0%"   AND #Azithromycin
     bnf_code NOT LIKE "0501013E0%"   AND #Ampicillin
     bnf_code NOT LIKE "0501013L0%"   AND #co-fluamp
-    bnf_code NOT LIKE "0501021C0%"   AND #Azithromycin
-    bnf_code NOT LIKE "0501050A0%"   AND #Azithromycin
-   
-   
-   
-    Cefixime
-    cefradroxil
+    bnf_code NOT LIKE "0501021C0%"   AND #cefixime
+    bnf_code NOT LIKE "0501021B0%"   AND #cefradroxil
     bnf_code NOT LIKE "0501050T0%")      #telithromycin
 
 )
