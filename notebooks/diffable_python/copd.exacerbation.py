@@ -61,8 +61,18 @@ WITH bnf_codes AS (
    bnf_code LIKE '0501030%')    #bnf antibacterials tetracyclines)
    AND
    (bnf_code NOT LIKE "0501030Z0%AA" AND #doxycyline rosacea prep
+    bnf_code NOT LIKE "0501021M0%"   AND #cefradrine
     bnf_code NOT LIKE "0501050A0%"   AND #Azithromycin
-    bnf_code NOT LIKE "0501050T0%")     #telithromycin
+    bnf_code NOT LIKE "0501013E0%"   AND #Ampicillin
+    bnf_code NOT LIKE "0501013L0%"   AND #co-fluamp
+    bnf_code NOT LIKE "0501021C0%"   AND #Azithromycin
+    bnf_code NOT LIKE "0501050A0%"   AND #Azithromycin
+   
+   
+   
+    Cefixime
+    cefradroxil
+    bnf_code NOT LIKE "0501050T0%")      #telithromycin
 
 )
 
