@@ -53,9 +53,16 @@ import pandas as pd
 sql = '''
 WITH bnf_codes AS (
   SELECT bnf_code FROM hscic.presentation WHERE 
-  bnf_code LIKE '0501013%' OR #bnf antibacterial penicillins
-  bnf_code LIKE '050102%'  OR #bnf antibacterial cephalosporins
-  bnf_code LIKE '0501030%'    #bnf antibacterials tetracyclines
+  (bnf_code LIKE '0501013%'   OR #bnf antibacterial penicillins
+   bnf_code LIKE '050102%'    OR #bnf antibacterial cephalosporins
+   bnf_code LIKE '0501050%'   OR #bnf antibacterial macrolides
+   bnf_code LIKE '0501120L0%' OR #bnf antibacterial ciprofl
+   bnf_code LIKE '0501120X0%' OR #bnf antibacterial mlevofloxacin
+   bnf_code LIKE '0501030%')    #bnf antibacterials tetracyclines)
+   AND
+   (bnf_code NOT LIKE "0501030Z0%AA" AND #doxycyline rosacea prep
+    bnf_code NOT LIKE "0501050A0%"   AND #Azithromycin
+    bnf_code NOT LIKE "0501050T0%")     #telithromycin
 
 )
 
@@ -66,7 +73,7 @@ AND
 obj_type IN ('vmp', 'amp')
 AND
 form_route LIKE '%.oral%' 
-ORDER BY obj_type, bnf_code, snomed_id
+ORDER BY obj_type, bnf_name, bnf_code, snomed_id
 '''
 
 
