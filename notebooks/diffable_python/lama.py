@@ -63,12 +63,12 @@ lama_single_codelist
 # +
 sql = '''WITH bnf_codes AS (
  SELECT DISTINCT bnf_code FROM measures.dmd_objs_with_form_route WHERE 
-    (bnf_code LIKE '0301020U0%' OR        #BNF Aclidinium Brom/Formoterol
-    bnf_code LIKE '0301040V0%'  OR        #BNF Aclidinium Brom/Formoterol
-    bnf_code LIKE '0301040W0%'  OR        #BNF Umeclidinium bromide / Vilanterol
-    bnf_code LIKE '0301040X0%'  OR        #BNF Tiotropium bromide  / Olodaterol
-    bnf_code LIKE '0302000V0%'  OR        #BNF Fluticasone Furoate ++ 
-    bnf_code LIKE '0301011AB%'  OR        #BNF Beclometasone + Formoterol + Glycopyrronium bromide
+    (bnf_code LIKE '0301020U0%'   OR        #BNF Aclidinium Brom/Formoterol
+    bnf_code LIKE '0301040V0%'    OR        #BNF Aclidinium Brom/Formoterol
+    bnf_code LIKE '0301040W0%'    OR        #BNF Umeclidinium bromide / Vilanterol
+    bnf_code LIKE '0301040X0%'    OR        #BNF Tiotropium bromide  / Olodaterol
+    bnf_code LIKE '0302000V0%A0'  OR        #BNF Fluticasone Furoate ++ 
+    bnf_code LIKE '0301011AB%'    OR        #BNF Beclometasone + Formoterol + Glycopyrronium bromide
     bnf_code LIKE '0301040Y0%')          #BNF Indacaterol 85micrograms/dose / Glycopyrronium bromide
     AND 
     form_route NOT LIKE '%neb%'     #exclude to nebules through name search
@@ -158,6 +158,6 @@ lama_laba_codelist = bq.cached_read(sql, csv_path=os.path.join('..','data','lama
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_colwidth', None)
 lama_laba_codelist
-# -
+# +
 
 
