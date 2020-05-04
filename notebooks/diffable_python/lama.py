@@ -158,6 +158,6 @@ lama_laba_codelist = bq.cached_read(sql, csv_path=os.path.join('..','data','lama
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_colwidth', None)
 lama_laba_codelist
-# +
+# -
 
 
