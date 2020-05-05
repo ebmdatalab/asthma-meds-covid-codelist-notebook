@@ -16,7 +16,7 @@
 
 # The following notebook conatins Snomed/[NHS dm+d codes](https://ebmdatalab.net/what-is-the-dmd-the-nhs-dictionary-of-medicines-and-devices/) medicines from chapter 3 - respiratory of the BNF that are delivered by nebuliser macines. Treatment with nebulisers generally indicates more severe disease or this route may be prefered if people cannot use inhalers.
 #
-# Propose we exclude dornase alpha ([10k scripts per annum](https://openprescribing.net/analyse/#org=CCG&numIds=0303010Q0AAAEAE&denom=nothing&selectedTab=summary)) and sodium cromgicate ([zero prescribing](https://openprescribing.net/analyse/#org=CCG&numIds=0303010Q0AAAEAE&denom=nothing&selectedTab=summary)) as we are looking specifically at meds used in asthma/COPD
+# We are excluding dornase alpha ([10k scripts per annum](https://openprescribing.net/analyse/#org=CCG&numIds=0307000K0&denom=nothing&selectedTab=summary)) and sodium cromgicate ([zero prescribing](https://openprescribing.net/analyse/#org=CCG&numIds=0303010Q0AAAEAE&denom=nothing&selectedTab=summary)) as we are looking specifically at meds used in asthma/COPD
 
 from ebmdatalab import bq
 import os
@@ -25,9 +25,13 @@ import pandas as pd
 # +
 sql = '''WITH bnf_codes AS (
  SELECT DISTINCT bnf_code FROM measures.dmd_objs_with_form_route WHERE 
-    bnf_code LIKE '03%'          #BNF respiratrry chapter
+    bnf_code LIKE '03%'          #BNF respiratory chapter
     AND 
     form_route LIKE '%neb%'     #limit to nebules through name search
+    AND
+    bnf_code NOT LIKE '0307000K0%'          #BNF Dornase alfa
+    AND
+    bnf_code NOT LIKE '0303010Q0%'          #BNF Sodium cromoglicate
    
   )
 
@@ -47,8 +51,3 @@ nebs_codelist = bq.cached_read(sql, csv_path=os.path.join('..','data','nebs_code
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_colwidth', None)
 nebs_codelist
-# -
-
-# Propose we exclude dornase alpha ([10k scripts per annum](https://openprescribing.net/analyse/#org=CCG&numIds=0303010Q0AAAEAE&denom=nothing&selectedTab=summary)) and sodium cromgicate ([zero prescribing](https://openprescribing.net/analyse/#org=CCG&numIds=0303010Q0AAAEAE&denom=nothing&selectedTab=summary)) as we are looking specifically at meds used in asthma/COPD
-
-
