@@ -34,11 +34,10 @@ sql = '''WITH bnf_codes AS (
    (bnf_code LIKE '0301011E0%'  OR          #BNF Formoterol Fumarate
     bnf_code LIKE '0301011X0%'  OR          #BNF Indacaterol Maleate 
     bnf_code LIKE '0301011Z0%'  OR          #BNF Olodaterol
-    bnf_code LIKE '0301011U0%'  OR          #BNF Salmeterol
-    bnf_code LIKE '0301011B0%'  )          #BNF Bambuterol Hydrochloride
-  # AND (form_route LIKE '%pressurizedinhalation.inhalation' OR form_route LIKE 'powderinhalation.inhalation%')
-   
-   )
+    bnf_code LIKE '0301011U0%'  )           #BNF Salmeterol
+    AND
+    bnf_code  NOT LIKE '0301011B0%'         #BNF Bambuterol Hydrochloride
+  )
 
 SELECT "vmp" AS type, id, bnf_code, nm
 FROM dmd.vmp
@@ -97,6 +96,6 @@ laba_ics_codelist = bq.cached_read(sql, csv_path=os.path.join('..','data','laba_
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_colwidth', None)
 laba_ics_codelist
-# -
+# +
 
 
